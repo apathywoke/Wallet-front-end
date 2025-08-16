@@ -11,7 +11,6 @@
   border: none;
   transition: background-color 0.2s ease, transform 0.1s ease;
   user-select: none;
-  width: 15vw;
 
   &:active {
     transform: scale(0.97);
@@ -41,13 +40,20 @@
   }
 }
 
+.sign {
+  background-color: #ffffff;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .small {
   padding: 0.4rem 0.8rem;
   font-size: 0.875rem;
 }
 
 .large {
-  padding: 0.8rem 1.6rem;
+  padding: 1.125rem 6.188rem;
   font-size: 1.125rem;
 }
 
