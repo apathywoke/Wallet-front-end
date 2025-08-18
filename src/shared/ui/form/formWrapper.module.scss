@@ -1,0 +1,17 @@
+.form {
+  width: 400px;
+  height: 570px;
+  background-color: #1c1d1f;
+  border-radius: 25px;
+  padding: 60px 75px;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  background-color: #ffffff;
+  color: black;
+}
