@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "appName": "Wallet App",
+    "welcomeBack": "Welcome Back",
+    "chooseMethod": "Choose a login method",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "logIn": "Log In",
+    "forgotPassword": "Forgot your password?"
+  }
+}

@@ -1,17 +1,12 @@
-.form {
-  width: 400px;
-  height: 570px;
-  background-color: #1c1d1f;
-  border-radius: 25px;
-  padding: 60px 75px;
+form {
+  width: 250px;
+  height: fit-content;
+  font-family: 'Inter', sans-serif;
 }
 
 .fields {
   display: flex;
   flex-direction: column;
-}
-
-.submit {
-  background-color: #ffffff;
-  color: black;
+  justify-content: center;
+  gap: 20px;
 }

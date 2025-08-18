@@ -1,5 +1,5 @@
 {
-  "name": "WalletApp",
+  "name": "wallet-app",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -12,6 +12,7 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.6",
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.11.0",
     "clsx": "^2.1.1",

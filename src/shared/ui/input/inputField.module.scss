@@ -1,15 +1,23 @@
+$inputColor: #2e2f31;
+$textColor: #fefefe;
+
 input {
   // general styles
+  font-family: 'Inter', sans-serif;
   padding: 1rem 2rem;
-  background-color: #2e2f31;
-  color: #fefefe;
+
+  //text-wise
+  background-color: $inputColor;
+  color: $textColor;
+  font-weight: 500;
+  font-size: 14px;
 
   // no border
   border: none;
   outline: none;
 
   //radius of input sharpening
-  border-radius: 15px;
+  border-radius: 10px;
 
   //transition
   transition: box-shadow 0.3s ease, border-color 0.3s ease;
