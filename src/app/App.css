@@ -1,7 +1,13 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  color: #fefefe;
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #020917, #101725);
+    color: #fefefe;
+    background-color: #121315;
+    font-family: 'Inter', sans-serif;
 }
 
 .content {

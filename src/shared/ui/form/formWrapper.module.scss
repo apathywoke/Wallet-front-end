@@ -1,0 +1,12 @@
+form {
+  width: 250px;
+  height: fit-content;
+  font-family: 'Inter', sans-serif;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}

@@ -3,7 +3,7 @@ import styles from "./button.module.scss";
 import clsx from "clsx";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "sign";
   size?: "small" | "medium" | "large";
   loading?: boolean;
 }
