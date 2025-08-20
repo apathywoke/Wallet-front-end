@@ -1,6 +1,6 @@
 import type { FC, ButtonHTMLAttributes } from "react";
 import styles from "./button.module.scss";
-import clsx from "clsx";
+import clsx from 'clsx';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "sign";

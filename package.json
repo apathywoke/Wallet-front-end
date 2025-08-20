@@ -1,6 +1,6 @@
 {
   "name": "wallet-app",
-  "version": "1.0.0",
+  "version": "0.0.1b",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,13 +13,17 @@
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.6",
+    "@hookform/resolvers": "^5.2.1",
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.11.0",
     "clsx": "^2.1.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-hook-form": "^7.62.0",
     "react-redux": "^9.2.0",
-    "redux-thunk": "^3.1.0"
+    "react-router-dom": "^7.8.1",
+    "redux-thunk": "^3.1.0",
+    "yup": "^1.7.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.6",

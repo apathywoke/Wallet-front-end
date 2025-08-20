@@ -1,8 +1,10 @@
 import type { FC } from "react";
 import clsx from "clsx";
-import styles from "./logIn.module.scss";
 
-export const LogIn: FC = () => {
+//styles
+import styles from "./signUp.module.scss";
+
+export const SignUp: FC = () => {
   return (
     <main className={clsx(styles.fullMinHeight, styles.columnDirection)}>
       <div className={clsx(styles.gapping, styles.rowDirection, styles.itemsCenter)}>
@@ -14,8 +16,9 @@ export const LogIn: FC = () => {
 
         <div className={clsx(styles.columnDirection, styles.itemsCenter)}>
           <h1 className={styles.heading}>Welcome Back</h1>
-          <p className={styles.subHeading}>Choose a login method</p>
+          <h2 className={styles.subHeading}>Choose a login method</h2>
         </div>
+
       </div>
     </main>
   )
