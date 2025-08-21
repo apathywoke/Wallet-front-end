@@ -1,6 +1,7 @@
 import type { FC } from "react";
 import clsx from "clsx";
 import styles from "./logIn.module.scss";
+import { SignInForm} from '@/features/auth/signIn';
 
 export const LogIn: FC = () => {
   return (
@@ -16,7 +17,13 @@ export const LogIn: FC = () => {
           <h1 className={styles.heading}>Welcome Back</h1>
           <p className={styles.subHeading}>Choose a login method</p>
         </div>
+
+        <SignInForm />
+
+        <a className={clsx(styles.subHeading)} href="">Forgot your password?</a>
+
       </div>
+
     </main>
   )
 };

@@ -3,6 +3,7 @@ import clsx from "clsx";
 
 //styles
 import styles from "./signUp.module.scss";
+import { SignUpForm } from '@/features/auth/signUp';
 
 export const SignUp: FC = () => {
   return (
@@ -18,6 +19,10 @@ export const SignUp: FC = () => {
           <h1 className={styles.heading}>Welcome Back</h1>
           <h2 className={styles.subHeading}>Choose a login method</h2>
         </div>
+
+        <SignUpForm />
+
+        <a className={clsx(styles.subHeading)} href="">Forgot your password?</a>
 
       </div>
     </main>
