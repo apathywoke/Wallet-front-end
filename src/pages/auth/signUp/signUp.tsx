@@ -4,6 +4,7 @@ import clsx from "clsx";
 //styles
 import styles from "./signUp.module.scss";
 import { SignUpForm } from '@/features/auth/signUp';
+import { Button } from '@/shared/ui/button'
 
 export const SignUp: FC = () => {
   return (
@@ -18,6 +19,11 @@ export const SignUp: FC = () => {
         <div className={clsx(styles.columnDirection, styles.itemsCenter)}>
           <h1 className={styles.heading}>Welcome Back</h1>
           <h2 className={styles.subHeading}>Choose a login method</h2>
+        </div>
+
+        <div className={clsx(styles.signButtons)}>
+          <Button variant={"secondSign"} size={"small"}>Sign In</Button>
+          <Button variant={"sign"} size={"small"}>Sign Up</Button>
         </div>
 
         <SignUpForm />

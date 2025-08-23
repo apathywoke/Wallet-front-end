@@ -59,6 +59,10 @@ html, body {
   white-space: nowrap;
 }
 
+.signButtons Button {
+  width: 125px;
+}
+
 .formComponent {
   background-color: $secondaryColor;
   border-radius: 25px;
